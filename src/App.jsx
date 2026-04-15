@@ -43,13 +43,13 @@ function App() {
         <Route path="/home" element={<Home />} />
       </Routes> */}
       {/* <LifeCycle/> */}
-      {/* <TodoList/> */}
+      <TodoList/>
       {/* {moviedata.map((da) => (
         <MovieBook handleclick={handleclick} name={da.name} rent={da.rent}/>
       ))} */}
-      <CounterProvider>
+      {/* <CounterProvider>
         <Counter/>
-      </CounterProvider>
+      </CounterProvider> */}
     </BrowserRouter>
   )
 }
